@@ -194,7 +194,7 @@ ul li:before {
   }
 
 code {
-  font-family: Source Code Pro;
+  font-family: Source Code Pro, monospace;
   }
 
 pre {
