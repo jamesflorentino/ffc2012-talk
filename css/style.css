@@ -1,0 +1,225 @@
+body {
+  font-family: Lato;
+  background: #444;
+  background-image: -webkit-radial-gradient(transparent, black);
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.step {
+  font-family: 'Lato';
+  font-weight: 200;
+  color: white;
+  }
+
+.slide {
+  border-radius: 0;
+  border: 0;
+  background: transparent;
+  }
+
+.center {
+  text-align: center;
+  }
+
+.push {
+  margin-bottom: 20px;
+  }
+
+.glow {
+  text-shadow: 0 0 50px cyan;
+  }
+
+.red {
+  color: white;
+  background-image: -webkit-linear-gradient(top, orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+
+.green {
+  color: white;
+  background-image: -webkit-linear-gradient(top, white, yellow, green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+
+.center {
+  text-align: center;
+  }
+
+
+.subtext,
+cite {
+  color: white;
+  text-transform: uppercase;
+  font-family: oswald;
+  letter-spacing: 1pt;
+  font-size: 1em;
+  font-weight: 400;
+  margin: 25px 0;
+  }
+
+
+#introduction h1 {
+  margin-top: 25%;
+  }
+
+#introduction-1 {
+  }
+
+
+.gallery {
+  margin-top: 20px;
+  border-top: 3px solid cyan;
+  padding-top: 20px;
+  }
+
+.gallery-three img {
+  width: 32%;
+  margin: 0;
+  }
+
+a {
+  background: transparent;
+  color: #7ff;
+  border-radius: 0;
+  text-shadow: none;
+  }
+a:hover {
+  background: none;
+  }
+
+.flip {
+  display: inline-block;
+  -webkit-transition: 400ms;
+  }
+
+.flip:hover {
+  background: #377;
+  color: white;
+  -webkit-transform: translateZ(10px);
+  }
+
+.step {
+  }
+
+.present {
+  }
+
+.step img {
+  width: 100%;
+  }
+
+
+hr {
+  border-color: rgba(0, 255, 255, 0.43);
+  border-width: 3px;
+  border-style: solid;
+  border-left-width: 0;
+  border-right-width: 0;
+  }
+
+hr.thin {
+  border-width: 1px;
+  }
+
+hr.hairline{
+  border-width: 0;
+  border-top-width: 1px;
+  }
+
+.action{
+  background: rgba(0,5,5,0.15);
+  border: 1px solid cyan;
+  padding: 20px 50px;
+  margin: 10px;
+  display: inline-block;
+  font-family: Source Code Pro;
+  position: relative;
+  font-size: 0.75em;
+  }
+
+
+.chart {
+  background: rgba(0,5,5,0.5);
+  border: 1px solid cyan;
+  padding: 20px 50px;
+  margin: 10px;
+  display: inline-block;
+  box-shadow: 0 0 40px rgba(0,255,255,0.25) inset;
+  font-family: Source Code Pro;
+  position: relative;
+  border-radius: 10px;
+  }
+
+  .chart > .chart {
+    font-size: 0.75em;
+    }
+
+.chart.bitmap-data:before {
+    font-size: 0.65em;
+    letter-spacing: 4px;
+    font-family: oswald;
+    text-transform: uppercase;
+    content: 'Canvas';
+    position: absolute;
+    top: -50px;
+    left: 20px;
+    color: cyan;
+  }
+
+ul li {
+  border-top: 1px solid rgba(200,255,255,0.25);
+  margin-bottom: 20px;
+  padding-top: 20px;
+  position: relative;
+  }
+
+ul li:first-child {
+  border-top-width: 0;
+  }
+
+ul li:before {
+  content: '\25B8';
+  content: '_';
+  left: -40px;
+  top: 0;
+  position: absolute;
+  color: cyan;
+  }
+
+code {
+  font-family: Source Code Pro;
+  }
+
+pre {
+  border-radius: 15px;
+  border: 1px solid rgba(0,255,255,0.25);
+  background: rgba(1,1,1,0.75);
+  }
+
+pre code {
+  font-size: 0.65em;
+  background: transparent !important;
+  }
+
+.noline li {
+  border-width: 0;
+  margin: 0;
+  }
+
+small {
+  font-size: 0.75em;
+  }
+
+
+ul.small li {
+  font-size: 0.75em;
+  }
+
+
