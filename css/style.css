@@ -1,5 +1,5 @@
 body {
-  font-family: Lato;
+  font-family: Lato, Arial;
   background: #444;
   background-image: -webkit-radial-gradient(transparent, black);
 }
@@ -11,7 +11,7 @@ h1 {
 }
 
 .step {
-  font-family: 'Lato';
+  font-family: 'Lato', Arial;
   font-weight: 200;
   color: white;
   }
@@ -152,7 +152,7 @@ hr.hairline{
   margin: 10px;
   display: inline-block;
   box-shadow: 0 0 40px rgba(0,255,255,0.25) inset;
-  font-family: Source Code Pro;
+  font-family: Source Code Pro, monospace;
   position: relative;
   border-radius: 10px;
   }
