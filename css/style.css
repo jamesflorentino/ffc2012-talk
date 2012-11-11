@@ -139,7 +139,7 @@ hr.hairline{
   padding: 20px 50px;
   margin: 10px;
   display: inline-block;
-  font-family: Source Code Pro;
+  font-family: Source Code Pro, monospace;
   position: relative;
   font-size: 0.75em;
   }
