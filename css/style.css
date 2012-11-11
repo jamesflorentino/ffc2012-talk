@@ -213,13 +213,20 @@ pre code {
   margin: 0;
   }
 
+.small,
 small {
   font-size: 0.75em;
   }
 
+.very-small {
+    font-size: 0.45em;
+    }
 
 ul.small li {
   font-size: 0.75em;
   }
 
 
+.fade {
+    color: rgba(255,255,255,0.5);
+    }
